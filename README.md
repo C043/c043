@@ -1,5 +1,6 @@
 ## Hi there 👋
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c043&layout=compact&theme=dark)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=c043&theme=dark&hide_border=true)](https://git.io/streak-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c043&layout=compact&theme=dark&hide_borders=true)
 
 <!--
 **C043/c043** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
