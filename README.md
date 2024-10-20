@@ -1,6 +1,5 @@
 ## Hi, my name is Mario!
----
-Programming world always fascinated me, I love looking at the application final result and then at the code behind it that efficiently build it and think "I made this, I can create anything!"
+Programming world always fascinated me, I love looking at the application final result and then at the code behind it that efficiently build it and think "I made this, I can create anything!"  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c043&layout=compact&theme=dark)
 
 <!--
