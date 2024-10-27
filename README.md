@@ -7,9 +7,6 @@ It's incredibly satisfying to see a project come together, from the initial conc
 
 **Let's build something awesome together! 🚀** 
 
-## Here are some of my interests:
-* **Web Development:** Creating beautiful and functional websites and web apps. 🌐
-
 **Feel free to reach out if you have any questions or want to collaborate!** 🤝 
 
 **Let's connect:**
