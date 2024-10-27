@@ -9,8 +9,6 @@ It's incredibly satisfying to see a project come together, from the initial conc
 
 ## Here are some of my interests:
 * **Web Development:** Creating beautiful and functional websites and web apps. 🌐
-* **Machine Learning:** Exploring the world of AI and data science. 🧠
-* **Game Development:** Bringing interactive experiences to life. 🎮
 
 **Feel free to reach out if you have any questions or want to collaborate!** 🤝 
 
