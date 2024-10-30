@@ -9,6 +9,10 @@ It's incredibly satisfying to see a project come together, from the initial conc
 
 * Currently working on [PowerUp](https://powerup-v6y4.onrender.com)
 
+Projects:
+* [PowerUp](https://powerup-v6y4.onrender.com)
+* [UnicodeTextConverterBot](https://github.com/C043/UnicodeTextConverterBot/)
+
 **Feel free to reach out if you have any questions or want to collaborate!** 🤝 
 
 **Let's connect:**
