@@ -20,6 +20,7 @@ Projects:
 * **LinkedIn:** [Linkedin](www.linkedin.com/in/mario-fragnito)
 * **Email:** [mariofragnitoph@gmail.com](mailto:mariofragnitoph@gmail.com)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c043&layout=compact&theme=dark)
 
 <!--
 **C043/c043** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
