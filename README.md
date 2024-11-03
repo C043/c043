@@ -10,6 +10,10 @@ It's incredibly satisfying to see a project come together, from the initial conc
 * Currently working on [PowerUp](https://powerup-v6y4.onrender.com)
 * Currently working on [ChatGPT-cli](https://github.com/c043/chatGPT-cli) too
 
+Projects:
+* [PowerUp](https://powerup-v6y4.onrender.com)
+* [Scribe](https://github.com/C043/Scribe/)
+
 **Feel free to reach out if you have any questions or want to collaborate!** 🤝 
 
 **Let's connect:**
