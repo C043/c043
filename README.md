@@ -8,7 +8,7 @@ It's incredibly satisfying to see a project come together, from the initial conc
 **Let's build something awesome together! 🚀** 
 
 * Currently working on [PowerUp](https://powerup-v6y4.onrender.com)
-* Currently working on [ChatGPT-cli](https://github.com/c043/chatGPT-cli) too
+* Currently working on [ShellGPT](https://github.com/c043/shellgpt)
 
 Projects:
 * [PowerUp](https://powerup-v6y4.onrender.com)
