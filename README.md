@@ -1,4 +1,4 @@
-## 👋 Hi there! I'm Mario 🤖
+## 👋🏻 Hi there! I'm Mario 👨🏻‍💻
 
 **I'm a passionate programmer who loves crafting digital solutions.** 💻
 
