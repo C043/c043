@@ -9,7 +9,7 @@ It's incredibly satisfying to see a project come together, from the initial conc
 
 * Currently working on [PowerUp](https://powerup-v6y4.onrender.com) and my
 portfolio
-* I'm currently learning [Motion]("https://motion.dev") and [Tailwind]("https://tailwindcss.com")
+* I'm currently learning [Motion](https://motion.dev) and [Tailwind](https://tailwindcss.com)
 
 Projects:
 * [PowerUp](https://powerup-v6y4.onrender.com)
