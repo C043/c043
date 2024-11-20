@@ -7,11 +7,13 @@ It's incredibly satisfying to see a project come together, from the initial conc
 
 **Let's build something awesome together! 🚀** 
 
-* Currently working on [PowerUp](https://powerup-v6y4.onrender.com)
-* Currently working on [ShellGPT](https://github.com/c043/shellgpt)
+* Currently working on [PowerUp](https://powerup-v6y4.onrender.com) and my
+portfolio
+* I'm currently learning [Motion]("https://motion.dev") and [Tailwind]("https://tailwindcss.com")
 
 Projects:
 * [PowerUp](https://powerup-v6y4.onrender.com)
+* [ShellGPT](https://github.com/c043/shellgpt)
 * [Scribe](https://github.com/C043/Scribe/)
 
 **Feel free to reach out if you have any questions or want to collaborate!** 🤝 
