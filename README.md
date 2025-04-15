@@ -1,14 +1,15 @@
-## 👋 Hi there! I'm Mario 🤖
+## Hi, I'm Mario 🤖
 
-**I'm a passionate programmer who loves crafting digital solutions.** 💻
+**I have a strong passion for programming, I take joy in building software that
+adds value to the user's life.** 💻
 
-I'm always amazed by the power of code to create anything from scratch. 💡
-It's incredibly satisfying to see a project come together, from the initial concept to the final product. 
+The power of code always fascinated me. You can create anything from scratch!
+It's incredibly satisfying to see a project come together, from the initial
+concept to the final product.
 
 **Let's build something awesome together! 🚀** 
 
-* Currently working on [PowerUp](https://powerup-v6y4.onrender.com) and my
-portfolio
+* Currently working on my portfolio and my blog
 * I'm currently learning [Motion]("https://motion.dev") and [Tailwind]("https://tailwindcss.com")
 
 Projects:
