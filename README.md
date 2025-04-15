@@ -21,7 +21,7 @@ Projects:
 
 **Let's connect:**
 * **GitHub:** [GitHub](https://github.com/C043)
-* **LinkedIn:** [Linkedin](www.linkedin.com/in/mario-fragnito)
+* **LinkedIn:** [Linkedin](https://linkedin.com/in/mario-fragnito)
 * **Email:** [mariofragnitoph@gmail.com](mailto:mariofragnitoph@gmail.com)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=c043&layout=compact&theme=dark)
