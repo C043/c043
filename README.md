@@ -13,7 +13,7 @@ new and better software!
 **Let's build something awesome together! 🚀** 
 
 * Currently working on my portfolio and my blog
-* I'm currently learning [Motion]("https://motion.dev") and [Tailwind]("https://tailwindcss.com")
+* I'm currently learning [Motion](https://motion.dev) and [Tailwind](https://tailwindcss.com)
 * I'm currently reading ["Soft Skills for Developers"](https://www.goodreads.com/book/show/23232941-soft-skills)
 
 Projects:
