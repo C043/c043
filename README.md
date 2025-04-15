@@ -1,4 +1,4 @@
-## Hi, I'm Mario 🤖
+# Hi, I'm Mario 🤖
 
 **I have a strong passion for programming, I take joy in building software that
 adds value to the user's life.** 💻
@@ -6,6 +6,9 @@ adds value to the user's life.** 💻
 The power of code always fascinated me. You can create anything from scratch!
 It's incredibly satisfying to see a project come together, from the initial
 concept to the final product.
+
+I believe in **continuous learning** as new skills give me the power to create
+new and better software!
 
 **Let's build something awesome together! 🚀** 
 
