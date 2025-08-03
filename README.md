@@ -12,16 +12,16 @@ new and better software!
 
 **Let's build something awesome together! 🚀** 
 
-* Currently working on my portfolio and my blog
-* I'm currently learning [Motion](https://motion.dev) and [Tailwind](https://tailwindcss.com)
-* I'm currently reading ["Soft Skills for Developers"](https://www.goodreads.com/book/show/23232941-soft-skills) by John Sonmez
+* Currently working on a big project!
+* I'm currently learning [Python](https://www.python.org) and [Vue](https://vuejs.org)
+* I'm currently reading ["The Quick Pythong Book, Fourth Edition"](https://www.goodreads.com/book/show/223777839-the-quick-python-book-fourth-edition) by Naomi Ceder
 
 Projects:
 * [PowerUp](https://github.com/C043/PowerUp-frontend)
 * [ShellGPT](https://github.com/c043/shellgpt)
 * [Scribe](https://github.com/C043/Scribe/)
 
-**Feel free to reach out if you have any questions or want to collaborate!** 🤝 
+**Feel free to reach out if you have any questions or want to collaborate!** 🤝
 
 **Let's connect:**
 * **GitHub:** [GitHub](https://github.com/C043)
