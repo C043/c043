@@ -17,11 +17,11 @@ new and better software!
 * I'm currently reading ["The Linux Programming Interface: A Linux and UNIX System Programming Handbook"](https://www.goodreads.com/book/show/7672214-the-linux-programming-interface)
 
 Projects:
-* [PowerUp](https://powerup-v6y4.onrender.com)
+* [PowerUp](https://github.com/C043/PowerUp-frontend)
 * [ShellGPT](https://github.com/c043/shellgpt)
 * [Scribe](https://github.com/C043/Scribe/)
 
-**Feel free to reach out if you have any questions or want to collaborate!** 🤝 
+**Feel free to reach out if you have any questions or want to collaborate!** 🤝
 
 **Let's connect:**
 * **GitHub:** [GitHub](https://github.com/C043)
