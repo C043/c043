@@ -12,9 +12,9 @@ new and better software!
 
 **Let's build something awesome together! 🚀** 
 
-* Currently working on my portfolio and my blog
-* I'm currently learning [Motion](https://motion.dev) and [Tailwind](https://tailwindcss.com)
-* I'm currently reading ["Soft Skills for Developers"](https://www.goodreads.com/book/show/23232941-soft-skills)
+* Currently working on [VOCODEX](https://github.com/C043/vocodex)
+* I'm currently learning [Swift](https://www.swift.org)
+* I'm currently reading ["The Linux Programming Interface: A Linux and UNIX System Programming Handbook"](https://www.goodreads.com/book/show/7672214-the-linux-programming-interface)
 
 Projects:
 * [PowerUp](https://powerup-v6y4.onrender.com)
