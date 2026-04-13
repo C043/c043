@@ -39,14 +39,19 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
         run: |
           python3 <<'PY'
-          import json, os, urllib.request, datetime
+          import json
+          import os
+          import urllib.request
+          import datetime
 
           username = os.environ["USERNAME"]
           token = os.environ["GH_TOKEN"]
 
           headers = {
               "Authorization": f"Bearer {token}",
-              "User-Agent": "github-actions"
+              "Accept": "application/vnd.github+json",
+              "User-Agent": "github-actions",
+              "X-GitHub-Api-Version": "2022-11-28",
           }
 
           def get(url):
@@ -66,16 +71,24 @@ jobs:
 
           sorted_langs = sorted(totals.items(), key=lambda x: x[1], reverse=True)
 
+          top_langs = sorted_langs[:6]
+          total_bytes = sum(count for _, count in top_langs)
+
           data = {
               "username": username,
               "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+              "total_bytes": total_bytes,
               "languages": [
-                  {"name": l, "bytes": c}
-                  for l, c in sorted_langs[:6]
+                  {
+                      "name": lang,
+                      "bytes": count,
+                      "percent": round((count / total_bytes) * 100, 2) if total_bytes else 0
+                  }
+                  for lang, count in top_langs
               ]
           }
 
-          with open("top-langs.json", "w") as f:
+          with open("top-langs.json", "w", encoding="utf-8") as f:
               json.dump(data, f, indent=2)
           PY
 
@@ -85,12 +98,14 @@ jobs:
           GIST_ID: 5cb72b76f14f3e368cd552333b5c65ac
         run: |
           python3 <<'PY'
-          import json, os, urllib.request
+          import json
+          import os
+          import urllib.request
 
           gist_id = os.environ["GIST_ID"]
           token = os.environ["GIST_TOKEN"]
 
-          with open("top-langs.json") as f:
+          with open("top-langs.json", "r", encoding="utf-8") as f:
               content = f.read()
 
           payload = {
@@ -103,14 +118,17 @@ jobs:
 
           req = urllib.request.Request(
               f"https://api.github.com/gists/{gist_id}",
-              data=json.dumps(payload).encode(),
+              data=json.dumps(payload).encode("utf-8"),
               headers={
                   "Authorization": f"Bearer {token}",
+                  "Accept": "application/vnd.github+json",
                   "Content-Type": "application/json",
-                  "User-Agent": "github-actions"
+                  "User-Agent": "github-actions",
+                  "X-GitHub-Api-Version": "2022-11-28",
               },
               method="PATCH"
           )
 
-          urllib.request.urlopen(req)
+          with urllib.request.urlopen(req) as response:
+              print(f"Gist updated: {response.status}")
           PY
