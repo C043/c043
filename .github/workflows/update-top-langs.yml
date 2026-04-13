@@ -1,4 +1,4 @@
-name: Update top languages card
+name: Update top langs assets
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-top-langs:
+  update-assets:
     runs-on: ubuntu-latest
 
     permissions:
@@ -20,11 +20,11 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: layout=compact&langs_count=6&theme=github_dark
+          options: layout=compact&langs_count=6&theme=github_dark&hide=html,css,json
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit updated card
+      - name: Commit updated SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -32,3 +32,85 @@ jobs:
           git pull
           git commit -m "Update top languages card" || exit 0
           git push
+
+      - name: Build top-langs.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 <<'PY'
+          import json, os, urllib.request, datetime
+
+          username = os.environ["USERNAME"]
+          token = os.environ["GH_TOKEN"]
+
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "User-Agent": "github-actions"
+          }
+
+          def get(url):
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req) as r:
+                  return json.load(r)
+
+          repos = get(f"https://api.github.com/users/{username}/repos?per_page=100&type=owner")
+
+          totals = {}
+          for repo in repos:
+              if repo.get("fork"):
+                  continue
+              langs = get(repo["languages_url"])
+              for lang, count in langs.items():
+                  totals[lang] = totals.get(lang, 0) + count
+
+          sorted_langs = sorted(totals.items(), key=lambda x: x[1], reverse=True)
+
+          data = {
+              "username": username,
+              "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+              "languages": [
+                  {"name": l, "bytes": c}
+                  for l, c in sorted_langs[:6]
+              ]
+          }
+
+          with open("top-langs.json", "w") as f:
+              json.dump(data, f, indent=2)
+          PY
+
+      - name: Update gist
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_ID: 5cb72b76f14f3e368cd552333b5c65ac
+        run: |
+          python3 <<'PY'
+          import json, os, urllib.request
+
+          gist_id = os.environ["GIST_ID"]
+          token = os.environ["GIST_TOKEN"]
+
+          with open("top-langs.json") as f:
+              content = f.read()
+
+          payload = {
+              "files": {
+                  "top-langs.json": {
+                      "content": content
+                  }
+              }
+          }
+
+          req = urllib.request.Request(
+              f"https://api.github.com/gists/{gist_id}",
+              data=json.dumps(payload).encode(),
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Content-Type": "application/json",
+                  "User-Agent": "github-actions"
+              },
+              method="PATCH"
+          )
+
+          urllib.request.urlopen(req)
+          PY
