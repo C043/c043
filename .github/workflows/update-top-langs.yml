@@ -20,7 +20,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: layout=compact&langs_count=8
+          options: layout=compact&langs_count=6&theme=github_dark
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
