@@ -12,14 +12,10 @@ new and better software!
 
 **Let's build something awesome together! 🚀** 
 
-* Currently working on [VOCODEX](https://github.com/C043/vocodex)
-* I'm currently learning [Swift](https://www.swift.org)
-* I'm currently reading ["The Linux Programming Interface: A Linux and UNIX System Programming Handbook"](https://www.goodreads.com/book/show/7672214-the-linux-programming-interface)
-
 Projects:
+* [ThinkTwice](https://github.com/c043/think-twice)
 * [PowerUp](https://github.com/C043/PowerUp-frontend)
-* [ShellGPT](https://github.com/c043/shellgpt)
-* [Scribe](https://github.com/C043/Scribe/)
+* [PiTVDashboard](https://github.com/C043/PiTVDashboard/)
 
 **Feel free to reach out if you have any questions or want to collaborate!** 🤝
 
