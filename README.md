@@ -13,9 +13,11 @@ new and better software!
 **Let's build something awesome together! 🚀** 
 
 Projects:
+* [LeetLearn](https://github.com/c043/leetlearn)
 * [ThinkTwice](https://github.com/c043/think-twice)
-* [PowerUp](https://github.com/C043/PowerUp-frontend)
+* [The Rubber Duck Project](https://github.com/C043/RubberDuckProject)
 * [PiTVDashboard](https://github.com/C043/PiTVDashboard/)
+* [PowerUp](https://github.com/C043/PowerUp-frontend)
 
 **Feel free to reach out if you have any questions or want to collaborate!** 🤝
 
