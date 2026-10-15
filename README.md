@@ -14,6 +14,7 @@ new and better software!
 
 Projects:
 * [LeetLearn](https://github.com/c043/leetlearn)
+* [VOCODEX](https://github.com/c043/vocodex)
 * [ThinkTwice](https://github.com/c043/think-twice)
 * [The Rubber Duck Project](https://github.com/C043/RubberDuckProject)
 * [PiTVDashboard](https://github.com/C043/PiTVDashboard/)
